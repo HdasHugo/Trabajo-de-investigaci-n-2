@@ -99,6 +99,4 @@ El control digital se utiliza para crear una onda cuadrada, una señal conmutada
 ### 5.3 DIAGRAMA ELÉCTRICO
 ![Diagrama circuital](https://user-images.githubusercontent.com/68835261/88509704-46a61900-cfa7-11ea-8d21-d567f6886ad7.png)
 ### 5.4 DIAGRAMA DE FLUJO
-![Diagrama 1 4](https://user-images.githubusercontent.com/68835261/88509712-49087300-cfa7-11ea-8888-056ae38fd3d6.JPG)
-
 
