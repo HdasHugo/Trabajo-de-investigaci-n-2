@@ -128,3 +128,17 @@ Ahora bien, necesitamos saber el tipo de cada variable que se ha utilizado, adem
 ### Programación de un Arduino en Tinkercad mediante bloques
 
 El funcionamiento del programa básicamente consiste de estructuras condicionales “If-Else” anidadas, en las que se postulan las diferentes condiciones para que los semáforos funcionen en “modo habitual” o “modo precaución”. (Figura 1.3)
+[Figura 1 3 1](https://user-images.githubusercontent.com/68835261/88513659-4e1cf080-cfae-11ea-8a8e-7cd682b366e5.JPG)
+![Figura 1 3 2](https://user-images.githubusercontent.com/68835261/88513671-5543fe80-cfae-11ea-9dd3-701fec67655c.JPG)
+
+###- Presionando S1 (Switch 1)La primera estructura condicional nos estipula que al momento de presionar el switch 1, el programa ejecutará la secuencia de bloques (Ilustrada en la figura 1.3 – Llave de color rojo), en la que se resuelve todo el algoritmo correspondiente al funcionamiento de un semáforo vehicular y peatonal en su “modo habitual”. Esto quiere decir que la luz verde del semáforo vehicular se encenderá durante dos segundos, debido a que el pasador (pin digital) 13 se encuentra en estado lógico “ALTO” con una espera de 2 segundos. Finalizado el transcurso de este tiempo se apagará y a su vez se encenderá la luz amarilla (pin digital 12) durante 1 segundo. Simultáneamente la luz roja del semáforo peatonal (pin digital 9) se enciende hasta que transcurran los tres segundos, en los cuales ocurrió la primera parte del proceso.
+
+Finalmente, la luz amarilla del semáforo vehicular (pin digital 12) y la luz roja del semáforo peatonal (pin digital 9) se posicionan en el estado lógico “BAJO”. Y la luz roja del semáforo vehicular (pin digital 11) junto con la luz verde del semáforo peatonal cambian su estado lógico a “ALTO” durante 2 segundos. Acabado este proceso, el programa se repetirá hasta cambiar el estado lógico del switch 1.
+
+###- Presionando S2 (Switch 2)
+La segunda estructura condicional nos estipula que al momento de presionar el switch 2, el programa ejecutará la secuencia de bloques (Ilustrada en la figura 1.3 – Llave de color celeste), en la que se resuelve el algoritmo correspondiente al funcionamiento de un semáforo vehicular en “modo precaución” que consiste de un total de 4 bloques de código; en el cual, el primer bloque coloca al pin digital 12 (luz amarilla del semáforo vehicular) en estado lógico “ALTO” durante 1 segundo (segundo bloque) y posterior a ello el mismo pin digital cambia al estado lógico “BAJO” (tercer bloque) durante 1 segundo (cuarto bloque). Acabado este proceso, esta secuencia se repetirá hasta cambiar el estado lógico del switch 2. 
+
+###- Switch 1 y 2 en "ALTO" o en "BAJO"
+Si no se cumple ninguna de las combinaciones anteriores, se ejecutarán los tres últimos bloques de código (Figura 1.3 – Llave de color azul). Los cuales representan al apagado de todo el sistema de semáforos, ya que los pines digitales 11, 12 y 13 cambian a estado lógico “BAJO”.
+
+Una de las ventajas de programar un Arduino en Tinkercad, es que además de elaborar el programa mediante bloques podemos visualizar el mismo código de manera “textual”. Y de esta manera tener dos opciones de realización para el programador, dependiendo de cual le resulte más intuitiva, A continuación, mostramos el código que se generó de manera automática en Tinkercad (Figura 1.4).  
