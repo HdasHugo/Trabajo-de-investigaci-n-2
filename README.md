@@ -106,3 +106,19 @@ El control digital se utiliza para crear una onda cuadrada, una señal conmutada
 
 ## 7. MAPAS DE VARIABLES
 ### •	Variables utilizadas para el funcionamiento del circuito (Semáforo)
+![Figura 1 1](https://user-images.githubusercontent.com/68835261/88512142-ad2d3600-cfab-11ea-8c1f-9ecd9c854610.JPG)
+### •	Interfaz de usuario
+![Figura 1 2](https://user-images.githubusercontent.com/68835261/88512155-b0c0bd00-cfab-11ea-8d1e-671f58b99825.JPG)
+### •	Tabla de variables visibles o no visibles
+![Tabla 1 2](https://user-images.githubusercontent.com/68835261/88512178-b74f3480-cfab-11ea-89cd-a7b8f6e6acc0.JPG)
+
+Donde:
+- S1 --> Switch 1 (Semáforos en "modo habitual")
+- S2 --> Switch 2 (Semáforos en "modo precaución")
+- L.V.1 --> Luz Verde (Semáforo vehicular)
+- L.A.1 --> Luz amarilla (Semáforo vehicular)
+- L.R.1 --> Luz Roja (Semáforo vehicular)
+- L.V.2 -->  Luz Verde (Semáforo peatonal)
+- L.R.2 --> Luz Roja (Semáforo peatonal)
+
+Ahora bien, necesitamos saber el tipo de cada variable que se ha utilizado, además de la función que realiza cada una en el programa. Esto se ilustra en la tabla 1.3.
