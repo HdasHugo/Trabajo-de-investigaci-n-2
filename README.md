@@ -84,5 +84,15 @@ El control digital se utiliza para crear una onda cuadrada, una señal conmutada
 11. Zócalo de tensión. Aquí estarán los pines con los que alimentaremos nuestro circuito. 
 12. Entradas analógicas: Zócalo con distintos pines de entrada analógica que permiten leer entradas analógicas. (Anónimo, 2016).
 
-## Entrada y salida, Comunicació
+## Entrada y salida, Comunicación
+![Captura pines digitales](https://user-images.githubusercontent.com/68835261/88509037-d21eaa80-cfa5-11ea-83d0-26cd44f25c41.JPG)
+-	Cada uno de los 14 pines digitales de la Uno puede utilizarse como entrada o salida, utilizando las funciones pinMode(), digitalWrite() y digitalRead(). (En nuestro caso esto último se lo realizaría mediante interfaz gráfica).
+-	Funcionan a 5 voltios. 
+-	Cada clavija puede proporcionar o recibir un máximo de 40 mA y tiene una resistencia pull-up interna de 20-50 kOhms.
+-	El Arduino Uno tiene un buen número de opciones para comunicarse con un ordenador, otro Arduino, u otros microcontroladores. El ATmega328 proporciona comunicación serie UART TTL, que está disponible en los pines digitales 0 (RX) y 1 (TX). 
+
+## 5. DIAGRAMAS
+### 5.1 DIAGRAMAS DE BLOQUES
+
+
 
