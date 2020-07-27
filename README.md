@@ -70,3 +70,19 @@ El control digital se utiliza para crear una onda cuadrada, una señal conmutada
 - Flash: Memoria de programa. Usualmente desde 1 Kb a 4 Mb, donde se guarda el sketch (programa realizado).
 
 # Composición de la placa de Arduino
+![Captura partes arduino](https://user-images.githubusercontent.com/68835261/88507070-312df080-cfa1-11ea-8c21-d2e615ba8267.JPG)
+1. Botón de Reset: Sirve para inicializar nuevamente el programa cargado en el microcontrolador de la placa. Cuando deje de responder el Arduino Uno es el botón de encendido o apagado para que vuelva a restablecerse. 
+2. Pines o puertos de entrada y salida: son los pines donde conectar los sensores, componentes y actuadores que necesiten de señales digitales.
+3. Pines o puertos de entrada y salida: son los pines donde conectar los sensores, componentes y actuadores que necesiten de señales digitales
+4. Puerto USB: Utilizado tanto para conectar con un ordenador y transferir o cargar los programas al microcontrolador como para dar electricidad al Arduino. También se usa como puerto de transferencia .
+5. Chip de interface USB: es el encargado de controlar la comunicación con el puerto USB. 
+6. Reloj oscilador: Es el elemento que hace que el Arduino vaya ejecutando las instrucciones. Es el encargado de marcar el ritmo al cual se debe ejecutar cada instrucción del programa.
+7. Led de encendido. Es un pequeño LED que se ilumina cuando la placa esta correctamente alimentada. 
+8. Microcontrolador. (ATMEGA 328) Este es el cerebro de cualquier placa Arduino. Es el procesador que se encarga de ejecutar las instrucciones de los programas. 
+9. Regulador de tensión: Este sirve para controlar la cantidad de electricidad que se envía a los pines, con lo que asegura que no se estropee lo que conectemos a dichos pines. 
+10. Puerto de corriente continua. Este puerto es el que se usa para darle electricidad a la placa si no se usa alimentación USB. 
+11. Zócalo de tensión. Aquí estarán los pines con los que alimentaremos nuestro circuito. 
+12. Entradas analógicas: Zócalo con distintos pines de entrada analógica que permiten leer entradas analógicas. (Anónimo, 2016).
+
+## Entrada y salida, Comunicació
+
