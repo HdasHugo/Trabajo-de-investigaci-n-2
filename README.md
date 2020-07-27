@@ -104,3 +104,5 @@ El control digital se utiliza para crear una onda cuadrada, una señal conmutada
 ## 6. LISTA DE COMPONENTES
 ![Tabla 1 1](https://user-images.githubusercontent.com/68835261/88509717-4d349080-cfa7-11ea-88fa-363d8eff20e3.JPG)
 
+## 7. MAPAS DE VARIABLES
+### •	Variables utilizadas para el funcionamiento del circuito (Semáforo)
