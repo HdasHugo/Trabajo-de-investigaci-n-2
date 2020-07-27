@@ -97,5 +97,5 @@ El control digital se utiliza para crear una onda cuadrada, una señal conmutada
 ### 5.2 DIAGRAMA UML (CASO DE USO - CLASE)
 ![Diagrama 1 2](https://user-images.githubusercontent.com/68835261/88509696-3ee67480-cfa7-11ea-9a2c-ade8d45d317b.JPG)
 ### 5.3 DIAGRAMA ELÉCTRICO
-
+![Diagrama circuital](https://user-images.githubusercontent.com/68835261/88509704-46a61900-cfa7-11ea-8d21-d567f6886ad7.png)
 
