@@ -122,3 +122,9 @@ Donde:
 - L.R.2 --> Luz Roja (Semáforo peatonal)
 
 Ahora bien, necesitamos saber el tipo de cada variable que se ha utilizado, además de la función que realiza cada una en el programa. Esto se ilustra en la tabla 1.3.
+![Tabla 1 3](https://user-images.githubusercontent.com/68835261/88512185-bc13e880-cfab-11ea-9229-a0675213ae70.JPG)
+
+## 8. EXPLICACIÓN DEL CÓDIGO FUENTE
+### Programación de un Arduino en Tinkercad mediante bloques
+
+El funcionamiento del programa básicamente consiste de estructuras condicionales “If-Else” anidadas, en las que se postulan las diferentes condiciones para que los semáforos funcionen en “modo habitual” o “modo precaución”. (Figura 1.3)
