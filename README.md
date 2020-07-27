@@ -101,4 +101,6 @@ El control digital se utiliza para crear una onda cuadrada, una señal conmutada
 ### 5.4 DIAGRAMA DE FLUJO
 ![Diagrama 1 4](https://user-images.githubusercontent.com/68835261/88510457-a650f400-cfa8-11ea-9210-b9224f3dffcb.JPG)
 
+## 6. LISTA DE COMPONENTES
+![Tabla 1 1](https://user-images.githubusercontent.com/68835261/88509717-4d349080-cfa7-11ea-88fa-363d8eff20e3.JPG)
 
