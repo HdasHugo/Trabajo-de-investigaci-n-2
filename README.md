@@ -92,7 +92,8 @@ El control digital se utiliza para crear una onda cuadrada, una señal conmutada
 -	El Arduino Uno tiene un buen número de opciones para comunicarse con un ordenador, otro Arduino, u otros microcontroladores. El ATmega328 proporciona comunicación serie UART TTL, que está disponible en los pines digitales 0 (RX) y 1 (TX). 
 
 ## 5. DIAGRAMAS
-### 5.1 DIAGRAMAS DE BLOQUES
-
+### 5.1 DIAGRAMA DE BLOQUES
+![Diagrama 1 1](https://user-images.githubusercontent.com/68835261/88509374-89b3bc80-cfa6-11ea-8997-1676c2785505.JPG)
+### 5.2 DIAGRAMA UML (CASO DE USO - CLASE)
 
 
